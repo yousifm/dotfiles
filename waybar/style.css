@@ -1,0 +1,88 @@
+@import "mocha.css";
+
+* {
+  font-family: Fira Code;
+  font-size: 14px;
+}
+
+window#waybar {
+  background-color: alpha(@base, 0.9);
+  border: 2px solid alpha(@crust, 0.1);
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#backlight,
+#disk,
+#network,
+#pulseaudio {
+  padding: 0 10px;
+}
+
+#clock {
+  color: @sky;
+}
+
+#wifi {
+  color: @sapphire;
+}
+
+#battery {
+  color: @green;
+}
+
+#pulseaudio {
+  color: @flamingo;
+}
+
+#network {
+  color: @maroon;
+}
+
+#backlight {
+  color: @mauve;
+}
+
+#workspaces button {
+  color: @text;
+  border-radius: 16px;
+  transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.68);
+}
+
+#workspaces button:hover {
+  background-color: @mauve;
+}
+
+#workspaces button.active {
+  color: @maroon;
+  background-color: shade(@surface1, 0.9);
+}
+
+.modules-right {
+  background-color: @surface1;
+  border-radius: 16px;
+  margin: 5px;
+}
+
+.modules-left {
+  background-color: @surface1;
+  border-radius: 16px;
+  margin: 5px;
+}
+
+.modules-center {
+  background-color: @surface1;
+  border-radius: 16px;
+  margin: 5px;
+}
+
+.custom-spotify {
+  padding: 0 10px;
+  color: @green;
+}
+
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
