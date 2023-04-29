@@ -17,4 +17,3 @@
 ![Screenshot1](resources/screen1)
 ![Screenshot2](resources/screen2)
 ![Screenshot3](resources/screen3)
-![Screenshot4](resources/screen4)
